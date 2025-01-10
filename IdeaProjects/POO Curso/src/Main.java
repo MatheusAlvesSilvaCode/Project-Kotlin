@@ -12,11 +12,11 @@ public class Main {
         l[4] = new Lutador("Shogun", "Noruega", 47,
                 1.84f, 89.3f, 1, 0, 4);
         l[5] = new Lutador("Marcos", "China", 19,
-                1.58f, 59.2f, 1, 0, 14);
+                1.58f, 76.9f, 1, 0, 14);
 
-        l[4].status();
-        l[4].ganharLuta();
-        l[4].status();
+        Luta UFC = new Luta();
+        UFC.marcarLuta(l[1], l[1]);
+        UFC.lutar();
 
     }
 }
