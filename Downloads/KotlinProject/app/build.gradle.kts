@@ -33,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    viewBinding { // Substitui o findViewById()
+        enable  = true
+    }
 }
 
 dependencies {
